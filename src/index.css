@@ -22,9 +22,9 @@ body {
   display: inline-block;
 }
 
-.player-card:nth-child(2) {
+/* .player-card:nth-child(2) {
   transform: rotate(180deg);
-}
+} */
 
 .winner {
   width: 100px;
