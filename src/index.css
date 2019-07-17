@@ -6,10 +6,22 @@
 
 body {
   width: 100%;
-  border: 2px solid black;
+  
   margin: 1rem auto;
   display: flex;
   justify-content: space-evenly;
+  
+}
+
+.style {
+  margin:100px 50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px dotted black;
+  border-radius: 5px;
+  align-items: center;
+  padding: 50px;
 }
 
 .player-card {
@@ -31,6 +43,7 @@ body {
   height: 55px;
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 button {
@@ -38,4 +51,11 @@ button {
   height: 50px;
   display: block;
   margin: 0 auto;
+  border-radius: 10px;
 }
+
+button:hover {
+  background-color: darkgrey;
+}
+
+button:focus {outline:0;}

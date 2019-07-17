@@ -33,7 +33,7 @@ decideWinner = () => {
   const playerOne = this.state.playerOne;
   const playerTwo = this.state.playerTwo;
 
-  if (playerOne === playerTwo) {return 'The game is at a draw'};
+  if (playerOne === playerTwo) {return 'Tied!'};
   
   if((playerOne === 'rock' && playerTwo === 'scissors') || 
       (playerOne === 'scissors' && this.state.playerTwo === 'paper') || 
